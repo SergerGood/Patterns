@@ -58,18 +58,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LogEntry.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\DoubleCheckedLock.cs" />
     <Compile Include="Singleton\LazyFieldInitSingleton.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
+    <Compile Include="Strategy\FuncStrategy.cs" />
+    <Compile Include="Strategy\InterfaceAndFuncStrategy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstract Factory\" />
+    <Folder Include="Abstract_Factory\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
