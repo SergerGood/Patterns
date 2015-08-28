@@ -8,7 +8,7 @@ namespace Patterns
         private string line;
 
 
-        private LogEntry(string line)
+        public LogEntry(string line)
         {
             this.line = line;
         }
