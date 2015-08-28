@@ -61,6 +61,10 @@
   <ItemGroup>
     <Compile Include="AbstractFactory\LogSaver.cs" />
     <Compile Include="ExceptionLogEntry.cs" />
+    <Compile Include="FactoryMethod\FuncFactoryMethod.cs" />
+    <Compile Include="FactoryMethod\GenericFactory.cs" />
+    <Compile Include="FactoryMethod\LogReaderBase.cs" />
+    <Compile Include="FactoryMethod\StaticFactoryMethod.cs" />
     <Compile Include="Iterator\LogFileSource.cs" />
     <Compile Include="LogEntry.cs" />
     <Compile Include="LogEntryBase.cs" />
