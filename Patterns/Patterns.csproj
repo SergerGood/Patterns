@@ -59,12 +59,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\LogSaver.cs" />
     <Compile Include="ExceptionLogEntry.cs" />
     <Compile Include="Iterator\LogFileSource.cs" />
     <Compile Include="LogEntry.cs" />
     <Compile Include="LogEntryBase.cs" />
     <Compile Include="Observer\DelegateObserver.cs" />
     <Compile Include="Observer\EventObserver.cs" />
+    <Compile Include="Observer\InterfaceObserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\DoubleCheckedLock.cs" />
@@ -74,14 +76,14 @@
     <Compile Include="Strategy\InterfaceAndFuncStrategy.cs" />
     <Compile Include="TemplateMethod\ExtensionTemplateMethod.cs" />
     <Compile Include="TemplateMethod\FuncTemplateMethod.cs" />
+    <Compile Include="Visitor\AbstractVisitor.cs" />
+    <Compile Include="Visitor\InterfaceVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Abstract_Factory\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
