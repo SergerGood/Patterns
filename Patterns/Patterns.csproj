@@ -60,6 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\LogSaver.cs" />
+    <Compile Include="Builder\FinalMailMessageBuilder.cs" />
+    <Compile Include="Builder\MailMessageBuilder.cs" />
+    <Compile Include="Builder\MailMessageBuilderEx.cs" />
     <Compile Include="ExceptionLogEntry.cs" />
     <Compile Include="FactoryMethod\FuncFactoryMethod.cs" />
     <Compile Include="FactoryMethod\GenericFactory.cs" />
