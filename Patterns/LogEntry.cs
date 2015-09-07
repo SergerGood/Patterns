@@ -8,6 +8,12 @@ namespace Patterns
         private string line;
 
 
+        public LogEntry()
+            : this(string.Empty)
+        {
+        }
+
+
         public LogEntry(string line)
         {
             this.line = line;
@@ -18,5 +24,9 @@ namespace Patterns
         {
             return new LogEntry(line);
         }
+
+        public DateTime EntryDateTime { get; set; }
+        public string Message { get; set; }
+        public Exception Exception { get; set; }
     }
 }

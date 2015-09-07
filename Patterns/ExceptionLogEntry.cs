@@ -1,8 +1,11 @@
-﻿namespace Patterns
+﻿using System;
+
+
+namespace Patterns
 {
     public class ExceptionLogEntry : LogEntry
     {
-        public ExceptionLogEntry(string line) 
+        public ExceptionLogEntry(string line)
             : base(line)
         {
         }

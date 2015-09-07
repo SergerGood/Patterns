@@ -60,6 +60,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AbstractFactory\LogSaver.cs" />
+    <Compile Include="Adapter\AsyncLogSaverAdapter.cs" />
+    <Compile Include="Adapter\IAsyncLogSaver.cs" />
+    <Compile Include="Adapter\ILogSaver.cs" />
+    <Compile Include="Adapter\SqlServerLogSaver.cs" />
+    <Compile Include="Adapter\SqlServerLogSaverAdapter.cs" />
     <Compile Include="Builder\FinalMailMessageBuilder.cs" />
     <Compile Include="Builder\MailMessageBuilder.cs" />
     <Compile Include="Builder\MailMessageBuilderEx.cs" />
@@ -76,6 +81,7 @@
     <Compile Include="Observer\InterfaceObserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleLogEntry.cs" />
     <Compile Include="Singleton\DoubleCheckedLock.cs" />
     <Compile Include="Singleton\LazyFieldInitSingleton.cs" />
     <Compile Include="Singleton\LazySingleton.cs" />
